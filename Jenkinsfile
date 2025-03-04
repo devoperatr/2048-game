@@ -2,7 +2,7 @@ pipeline {
     agent any  // Run on any available Jenkins agent
 
     environment {
-        AWS_REGION = "us-east-1"  // Change as per your setup
+        AWS_REGION = "eu-central-1"  // Change as per your setup
         INSTANCE_USER = "ubuntu"
         TERRAFORM_DIR = "$WORKSPACE/terraform-setup"  // Directory with main.tf
     }
